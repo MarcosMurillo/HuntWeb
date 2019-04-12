@@ -4,25 +4,29 @@
   padding: 20px;
 }
 .product-list article {
-  background: #fff;
-  border: 1px solid #ddd;
+  background: rgb(61, 61, 61);
+  border: 1px solid rgb(53, 53, 53);
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
+  transition: all 0.2s;
+}
+.product-list article:hover {
+  background-color: rgb(53, 53, 53);
 }
 .product-list article p {
   font-size: 16px;
-  color: #999;
+  color: #f0f0f0;
   margin-top: 5px;
   line-height: 24px;
 }
 .product-list article a {
   height: 42px;
   border-radius: 5px;
-  border: 2px solid #da552f;
+  border: 2px solid #7159c1;
   background: none;
   margin-top: 10px;
-  color: #da552f;
+  color: #fafafa;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
@@ -32,7 +36,7 @@
   transition: all 0.2s;
 }
 .product-list article a:hover {
-  background: #da552f;
+  background: #7159c1;
   color: #fff;
 }
 .product-list .actions {
@@ -43,16 +47,16 @@
 .product-list .actions button {
   padding: 10px;
   border-radius: 5px;
-  border: 2px solid #da552f;
-  background: #fff;
-  color: #da552f;
+  border: 1px solid #7159c1;
+  background: rgb(61, 61, 61);
+  color: #fafafa;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.2s;
 }
 .product-list .actions button:hover {
-  background: #da552f;
+  background: #7159c1;
   color: #fff;
 }
 .product-list .actions button[disabled] {
